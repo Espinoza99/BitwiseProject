@@ -1,1 +1,7 @@
-@media 
+@media (max-width:750px){
+   body {
+    width: 790px;
+    font-size: 19px;
+    margin-bottom: 10px;
+   } 
+}
