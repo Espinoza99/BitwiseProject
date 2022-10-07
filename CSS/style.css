@@ -1,3 +1,74 @@
+.firstPage{
+   background-image: url(https://www.topgear.com/sites/default/files/2022/09/1%20Hyundai%20N%20Vision%2074.jpg);
+   width: fit-content;
+   height: 100vh;
+   
+}
+nav{
+   display: flex;
+}
+
+h1{
+   font-weight: 700;
+   
+}
+.list1{
+   list-style: none;
+}
+
+h4{
+   font-weight: 500;
+   
+}
+
+.menu {
+   margin:16px 31px 0 10px;
+}
+
+.firstTitle{
+   margin: 100px 51vh;
+}
+
+.titles{
+   font-size: 65px;
+}
+
+
+a {
+   color: #171a20;
+}
+
+.btns{
+   margin: 640px 0 0 0;
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+
+
+/*STYLES*/
+
+:root {
+   --very-light-gray: #d7d7d7;  
+   --gray: #35373b;
+   --dark: #171a20;
+   --blue: #6180a0;
+   --sm: 14px;
+   --md: 16px;
+   --lg: 18px;
+   
+ }
+ body{
+     font-family: 'Orbitron', sans-serif;
+ }
+
+
+
+
+
+
 @media (max-width:750px){
    body {
     width: 790px;
