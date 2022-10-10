@@ -1,6 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
@@ -8,105 +8,110 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
-  <body class="" style="background-color: #148bf4;">
-    <section id="new-post" class=" d-flex justify-content-center px-4" style="background-color: #ffee33;">
-        <div class="mx-3 my-2 text-white fw-semibold" style="background-color: #ff5221; padding: 0 8px;">NEW POST</div>
-        <p class="my-2">How to wirefreame a website: A complete guide</p>
-        <a class="my-2 mx-2" style="text-decoration: none;" href="">Read more --></a>
+<body>
+    <section class="topMessage">
+        <div class="newPost text-white">NEW POST</div>
+        <p class="p-topMessage fw-semibold">How to wireframe a website: A complete guide <a class="topLink" href="">Read more--></a> </p>
     </section>
-    <nav class="top-nav d-flex px-4 pt-3 fs-4 pb-3 sticky-top" style="background-color: #1089f2;">
-        <div id="brand" class="fs-3 fw-bold text-white" style="font-family: sans-serif;">moqups</div>
-        <ul class="list d-flex text-white fs-5 my-2" style="list-style:none;">
-            <li class="mx-3">Tour</li>
-            <li class="mx-3">Benefits</li>
-            <li class="mx-3">Product</li> 
-            <li class="mx-3">Templates</li> 
-            <li class="mx-3">Testimonials</li> 
-            <li class="mx-3">Pricing</li> 
-            <li class="mx-3">Log In</li> 
-        </ul>
-        
-    </nav>    
-    
-    <main class="d-flex">
-        <section class="text-white m-5 " style="">
-            <div>
-                <h1>Shape Your Ideas.</h1>
-                <h1>Prove Your Concept.</h1>
-            </div>
-            <div class="m-5 mx-1">
-                <p class="">A streamlined web app that helps you create and collaborate in</p>
-                <p>real-time on wireframes, mockups, diagrams and prototypes.</p></div>
-                <button type="button" class="btn p-3 px-5 fw-bold text-secondary" style="background-color: #ffee33;">Create a Free account</button>
-                <p class="d-flex text-light" style="margin: 0 0 0 60px; font-size: small;">No credit card required</p>
-            
-        </section>
-        <section>
-            <div class="" style="">
-                <img class="" style="border: none; max-width: 700px;" src="https://landing.moqups.com/img/illustrations/walls_hero@2x.png" alt="">
-            </div>
-        </section>
-    </main>
-    <section>
-        <div class="d-flex justify-content-center py-5 " style=" height: 140px;">
-            <p class=" text-light" style="margin: 9px 20px;">Used by 2,000,000 people worldwide</p>
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/microsoft.png" alt="">
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/intel.png" alt="">
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/cisco.png" alt="">
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/amazon.png" alt="">
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/sony.png" alt="">
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/oracle.png" alt="">
-            <img class="m-2" style="max-width: 80px;" src="https://landing.moqups.com/img/clients/mozilla.png" alt="">
+    <nav class="topNav navbar navbar-expand-lg">
+        <div class="container-fluid">
+           <a class="navbar-brand fw-bold" href="#">MOQUPS</a> 
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expande>
+            <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Benefits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Templates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Log In</a>
+              </li>
         </div>
-        
-        <div class="text-white" style="">
-            <h1 style="margin:0 30vh">An all-in-one online design platform that's </h1>
-            <h1 style="margin:0 50vh">smart, simple and fast.</h1>
-        </div>
-    </section>
-    <section>
+    </nav>
+    <main>
+        <section class="topText text-white">
+            <h2 class="topText-h2 my-4">Shape Your Ideas. Prove Your Concept.</h2>
+            <p class="topText-p">A streamlined web app that helps you create and collaborate in real- time on wireframes, mockups, diagrams and prototypes.</p>
+        </section>
+        <section class="buttonTop">
+            <button class="freeButton fw-semibold" type="button">Create a FREE account</button>
+            <p class="buttonText">No credit card required</p>
+            <h6 class="buttonH6 text-white my-5">Used by 2,000,000 people worldwide</h6>
+        </section>
+        <section class="logos">
+            <img class="piclogo" src="https://landing.moqups.com/img/clients/microsoft.png" alt="">
+            <img class="piclogo" src="https://landing.moqups.com/img/clients/intel.png" alt="">
+            <img class="piclogo" src="https://landing.moqups.com/img/clients/cisco.png" alt="">
+            <img class="piclogo" src="https://landing.moqups.com/img/clients/amazon.png" alt="">
+            <img class="piclogo" src="https://landing.moqups.com/img/clients/sony.png" alt="">
+            <img class="piclogo" src="https://landing.moqups.com/img/clients/oracle.png" alt="">
+            <img class="piclogo6" src="https://landing.moqups.com/img/clients/mozilla.png" alt="">
+        </section>
         <div>
-            <nav class="navbar" style="background-color: #0b6bd4; margin: 5vh 20vh;">
-                <div class="container-fluid">
-                  <a class="navbar-brand text-light" href="#">DESIGN</a>
-                  <a class="navbar-brand text-light" href="#">PLAN</a>
-                  <a class="navbar-brand text-light" href="#">PROTOTYPE</a>
-                  <a class="navbar-brand text-light" href="#">COLLABORATE</a>
-                </div>
-              </nav>
+            <h3 class="secondH1 text-white fw-lighter ">An all-in-one online design platform that's smart, simple and fast.</h3>
+            <img class="midImg" src="https://landing.moqups.com/img/product-shots/moqups-wireframe-storyboard.png" alt="">
         </div>
-    </section>
-    <section class="d-flex justify-content-end">
-        <div class="text-light" style="max-width: 300px; margin: 90px 150px 0 0;">
-            <h5 class="mb-4">Visualize Your Concept</h5>
-            <p>Envision, test and validate your ideas with quick wireframes and detailed mockups.</p>
-            <p>Explore and iterate as your team builds momentum - moving seamlessly from lo-fi to hi-fi as your project evolves.</p>   
-        </div>
-        
-        <img class="" style="max-width: 80vh;" src="https://landing.moqups.com/img/product-shots/moqups-wireframe-storyboard.png" alt="">
-    </section>
-    <section class="d-flex justify-content-center mt-5">
-        <img  style="max-width: 1000px;" src="https://landing.moqups.com/img/illustrations/wall@2x.png" alt="">
-        
-    </section>
-    <section>
-        <div class=" bg-white" style="padding-top: 70px;">
-            <h2 class="" style="color: #335578; margin: 0 32%; text-align: center;">A flexible design solution that adapts to your workflow.</h2>
-        </div>
-    </section> 
-    <section class="bg-white">
-       <div class="d-flex justify-content-center" style="">
-            <div class=" m-5" style="padding-top: 70px; max-width: 780px;">
-                <h4 class="m-5">Work Anywhere With Your Team</h4>
-                <p class="m-5" style="max-width: 330px;">Work remotely in the Cloud - anytime and on any device - without the hassle of uploading and downloading files.</p>
-                <p class="m-5" style="max-width: 330px;">Keep a geographically dispersed team collaborating - and always in sync.</p>
-            
+        <section class="midDesign text-white">
+            <h5 class="designH">Design</h5>
+            <h4 class="visual mx-4">Visualize Your Concept</h4>
+            <p class="m-4 fw-lighter">
+                Envision, test and validate your ideas with quick wireframes and detailed mockups.
+            </p>
+            <p class="m-4 fw-lighter">
+                Explore and iterate as your team builds momentum - moving seamlessly from lo-fi to hi-fi as your project evolves. 
+            </p>
+        </section>
+        <section class="text-white m-2">
+            <h5 class="designH5">PLAN</h5>
+            <h4 class="visual mx-4">Shape Your Ideas</h4>
+            <p class="m-4 fw-lighter">
+                Capture concepts and give direction to your projects with our professional diagramming tools. 
+            </p>
+            <p class="m-4 fw-lighter">
+                Create site-maps, flowcharts, storyboards - and jump effortlessly between diagrams and designs to keep your work in sync.
+            </p>
+            <div>
+                <img class="midImg" src="https://landing.moqups.com/img/product-shots/moqups-wireframe-storyboard.png" alt="">
             </div>
-            <img class="m-5" style="max-width: 600px;" src="https://landing.moqups.com/img/illustrations/illu1@2x.png" alt="">
-
-        </div>  
-    </section>   
-        
-    
-    </body>
-    </html>
+            <div class="text-white m-2">
+                <h5 class="designH5">PROTOTYPE</h5>
+                <h4 class="visual mx-4">Present Your Project</h4>
+                <p class="m-4 fw-lighter">
+                    Create a functional prototype by adding interactivity to your designs.
+                </p>
+                <p class="m-4 fw-lighter">
+                    Simulate the user experience, uncover hidden requirements, find dead ends, and get final sign-off from all stakeholders before investing in development.
+                </p>
+            </div>
+            <div class="lastSect text-white m-2">
+                <h5 class="designH5">COLLABORATE</h5>
+                <h4 class="visual mx-4">Communicate In Realtime</h4>
+                <p class="m-4 fw-lighter">
+                    Keep everybody on the same page, providing feedback at every stage of the design process.
+                </p>
+                <p class="m-4 fw-lighter">
+                    Hear all voices, consider all options - and establish consensus - by editing in realtime and commenting directly on the designs.
+                </p>
+        </section>
+        <div>
+            <img class="lastImg" rc="https://landing.moqups.com/img/illustrations/wall@2x.png" alt="">
+        </div>
+    </main>
+</body>
+</html>
