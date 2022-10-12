@@ -93,10 +93,14 @@ body {
    margin: 0;
    
 }
+.midImg2 {
+   width: 300px;
+   margin: 0;
+}
 
 .midDesign{
    background-color: #0064e4;
-   height: 32vh;
+   height: 500px;
    margin: 0;
    font-size: 19px;
 }
@@ -110,4 +114,201 @@ body {
 .lastImg {
    width: 300px;
    margin: 0;
+}
+@media (min-width:600px){
+   .hide-mobile, .midImg, h5, h4,p,.midDesign{
+      display: none;
+   }
+}
+
+@media only screen and (max-device-width: 600px) {
+   .show-mobile {
+     display: block;
+   }
+   .hide-mobile, .last-Img {
+     display: none;
+   }
+
+   
+ }
+
+@media only screen and (min-device-width: 601px) {
+   .show-mobile {
+     display: none;
+   }
+   .hide-mobile {
+     display: block;
+   }
+ }
+@media (min-width:600px){
+  body{
+      width: 650px;
+   }
+
+   .freeButton {
+      height: 60px;
+      width: 230px;
+      margin: 0 16vh;
+      background-color: #fe3;
+      border-radius: 5px;
+      border: none;
+   }
+
+   .topMessage {
+      background-color: #fe3;
+      display: flex;
+      height: 35px;
+      padding: 7px;
+   }
+   
+   .newPost{
+      background-color: #ff5221;
+      margin: 3px 8px 0px 5px;
+      font-size: 12px;
+      width: 100px;
+      text-align: center;
+   } 
+   .logos {
+      display: flex;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+   }
+   
+   .piclogo {
+      width: 60px;
+      margin: 5px 8px;
+      height: 25px;
+   }
+   .piclogo6{
+      width: 60px;
+      margin: 5px 8px;
+   }
+   .midBar {
+      display: flex;
+      background-color: #0064e4;
+      color: #a5d3fb;
+      
+   }
+   .midImg2 {
+      width: 500px;
+      margin-top: 20px;
+      float: right;
+   }
+   .last-Img {
+      width: 800px;
+      justify-content: center;
+      margin: 120px 0;
+   }
+}
+   
+@media (min-width:1130px){
+   body{
+      min-width: 1130px;
+   }
+   
+   .topText{
+      font-size: 15px;
+      width: 1000px;
+      display: block;
+   }
+   .topText-h2{
+      font-size: 30px;
+      width: 300px;
+   }
+   .topText-p {
+      width: 550px;
+      font-size: 20px;
+      font-weight: 300;
+   }
+   .imgTop {
+      width: 500px;
+      margin: -200px 0;
+      float: right;
+   }
+
+   .freeButton {
+      height: 60px;
+      width: 230px;
+      margin: 2vh 5vh;
+      background-color: #fe3;
+      border-radius: 5px;
+      border: none;
+   }
+   .buttonText{
+      
+   }
+
+   .topMessage {
+      background-color: #fe3;
+      display: flex;
+      height: 30px;
+      padding: 4px;
+   }
+
+   .p-topMessage{
+      margin: 0 0 0 0px;
+   }
+   
+   .newPost{
+      background-color: #ff5221;
+      margin: 1px 8px 4px 300px;
+      font-size: 12px;
+      width: 100px;
+      text-align: center;
+   } 
+   .topNav{
+      background-color: #0f88f2;
+   }
+   
+   .logos {
+      display: flex;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+   }
+   .buttonH6{
+      font-size: 14px;
+      width: 290px;
+      
+   }
+   
+   .piclogo {
+      width: 60px;
+      margin: 49px 12px;
+      height: 20px;
+   }
+   .piclogo6{
+      width: 50px;
+      margin: 49px 8px;
+      height: 20px;
+   }
+   .secondH1{
+      width: 500px;
+      margin: 10px 220px;
+   }
+   .midBar {
+      display: flex;
+      background-color: #0064e4;
+      color: #a5d3fb;
+      width: 900px;
+   }
+   .design{
+      margin:2px 70px;
+      
+   }
+   .midImg2 {
+      width: 600px;
+      margin-top: -260px ;
+      float: right;
+   }
+   .last-Img {
+      width: 800px;
+      justify-content: center;
+      margin: 120px;
+   }
+   .lastText{
+      width: 300px;
+      margin: 0px;
+   }
 }
