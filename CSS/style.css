@@ -1,5 +1,6 @@
 body {
    background-color: #0f88f2;
+   width: 100%;
 }
 
 .topMessage {
@@ -115,25 +116,31 @@ body {
    width: 300px;
    margin: 0;
 }
+
+
 @media (min-width:600px){
+   body{
+      width: 100%;
+   }
    .hide-mobile, .midImg, h5, h4,p,.midDesign{
       display: none;
    }
 }
 
 @media only screen and (max-device-width: 600px) {
+   
    .show-mobile {
      display: block;
    }
-   .hide-mobile, .last-Img {
+   .hide-mobile, .last-Img, .imgTop {
      display: none;
    }
 
    
  }
 
-@media only screen and (min-device-width: 601px) {
-   .show-mobile {
+@media only screen and (min-device-width: 501px) {
+   .show-mobile, .imgTop {
      display: none;
    }
    .hide-mobile {
@@ -142,13 +149,13 @@ body {
  }
 @media (min-width:600px){
   body{
-      width: 650px;
+      width: 100%;
    }
 
    .freeButton {
       height: 60px;
       width: 230px;
-      margin: 0 16vh;
+      margin: 0 29vh;
       background-color: #fe3;
       border-radius: 5px;
       border: none;
@@ -171,9 +178,15 @@ body {
    .logos {
       display: flex;
       width: 100%;
-      margin: 0;
+      margin: 90px 0 0 0;
       padding: 10px;
    }
+   .buttonH6 {
+      margin: -40px 0 0 0;
+      width: 300px;
+
+   }
+   
    
    .piclogo {
       width: 60px;
@@ -182,13 +195,18 @@ body {
    }
    .piclogo6{
       width: 60px;
+      height: 25px;
       margin: 5px 8px;
    }
    .midBar {
       display: flex;
       background-color: #0064e4;
       color: #a5d3fb;
+      justify-content: center;
       
+   }
+   .design{
+      margin: 0 40px;
    }
    .midImg2 {
       width: 500px;
@@ -200,11 +218,12 @@ body {
       justify-content: center;
       margin: 120px 0;
    }
+
 }
    
 @media (min-width:1130px){
    body{
-      min-width: 1130px;
+      min-width: 100%;
    }
    
    .topText{
